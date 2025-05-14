@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weary Adventurer Terminal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="start-container" id="start-screen">
+        <div class="terminal-window start-terminal">
+            <div class="terminal-header">
+                <div class="terminal-title">weary_adventure.exe</div>
+            </div>
+            <div class="start-content">
+                <input type="text" id="start-button" value="start" readonly>
+                <div class="menu-items">
+                    <div class="menu-item">Character Stats</div>
+                    <div class="menu-item">Inventory</div>
+                    <div class="menu-item">Online Adventurers</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="game-screen" style="display: none;">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="terminal-button red"></span>
+                    <span class="terminal-button yellow"></span>
+                    <span class="terminal-button green"></span>
+                </div>
+                <div class="terminal-title">weary_adventure.exe</div>
+            </div>
+            <div class="terminal-content">
+                <div id="terminal-output"></div>
+                <div class="terminal-input-line">
+                    <span class="prompt">></span>
+                    <input type="text" id="terminal-input" autofocus>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-panel">
+                <h2 class="sidebar-title">Character Stats</h2>
+                <div id="character-stats"></div>
+            </div>
+            <div class="sidebar-panel">
+                <h2 class="sidebar-title">Inventory</h2>
+                <div id="inventory"></div>
+            </div>
+            <div class="sidebar-panel">
+                <h2 class="sidebar-title">Online Adventurers</h2>
+                <div id="online-adventurers"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/terminal.js"></script>
+    <script src="js/story.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/fallback.js"></script>
+</body>
+</html>
