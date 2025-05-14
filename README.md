@@ -15,7 +15,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 A retro-styled, interactive terminal-based adventure game that simulates a tech hazing ritual. This project features a choice-based narrative, character stats, inventory system, and a functional terminal interface with API commands.
 
-![Weary Adventurer Terminal Screenshot](https://i.imgur.com/YourScreenshotHere.png)
+![image](https://github.com/user-attachments/assets/22d4a83c-e5c0-4d74-bac5-ace5628989be)
+
 
 ## Demo
 
